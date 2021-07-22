@@ -1,0 +1,11 @@
+name: KumaReports
+version: ${project.version}
+main: com.realxode.kumareports.Main
+authors: [ RealXode ]
+description: Report players and bugs.
+
+commands:
+  report:
+    description: Report players
+  bug:
+    description: Report bugs

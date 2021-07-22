@@ -1,0 +1,8 @@
+prefix: "&c&lKuma&4&lReports &8&l| &f"
+Report:
+  invalid-usage: "&cInvalid usage: /report [player] [reason]"
+  report-done: "&a&lReport sended!"
+  format: "&4&lREPORT &8| &f%reporter% &7reported &c%reported% &7by &b%reason%"
+Bug:
+  invalid-usage: "&cInvalid usage: /bug [bug report]"
+  bug-done: "&a&lBug reported!"
