@@ -1,3 +1,3 @@
-Modules:
-  report: true
-  bug: true
+webhook-url: "INSERT-URL"
+icon-url: "https://static.vecteezy.com/system/resources/previews/001/200/449/non_2x/clock-png.png"
+start-message-webhook: "KumaReports started"

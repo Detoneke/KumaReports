@@ -1,8 +1,21 @@
-prefix: "&c&lKuma&4&lReports &8&l| &f"
+ingame-prefix: "&c&lKuma&4&lReports &8&l| &f"
+invalid-usage: "&cInvalid usage! Use: /help <report, bug, other>!"
+successfully-sent-webhook: "&cReport sent!"
 Report:
-  invalid-usage: "&cInvalid usage: /report [player] [reason]"
-  report-done: "&a&lReport sended!"
-  format: "&4&lREPORT &8| &f%reporter% &7reported &c%reported% &7by &b%reason%"
+  specify-player: "&cPlease, specify a valid player!"
+  invalid-player: "&cThat player don't exists!"
+  specify-reason: "&cPlease, specify a reason to report it."
 Bug:
-  invalid-usage: "&cInvalid usage: /bug [bug report]"
-  bug-done: "&a&lBug reported!"
+  specify-bug-reason: "&cPlease, specify a bug reason to report it."
+
+# WEBHOOK CONFIG
+
+Webhook:
+  title: "Help - %player%"
+  description: "Player %player% needs help!"
+  field-type: "Type:"
+  field-report: "Report"
+  field-bug: "Bug"
+  field-other: "Other"
+  field-getreported: "Reported by:"
+  field-reason: "Reason"
