@@ -5,5 +5,5 @@ authors: [ RealXode ]
 description: Report players and bugs.
 
 commands:
-  help:
-    description: Help command
+  report:
+    description: Report pleyers, bugs or ask for help

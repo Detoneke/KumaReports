@@ -41,7 +41,7 @@ public final class Main extends JavaPlugin {
                 e.printStackTrace();
             }
             try {
-                this.getCommand("help").setExecutor(new AyudaCommand(this));
+                this.getCommand("report").setExecutor(new AyudaCommand(this));
                 sendConsoleMsg("&6Plugin enabled succesfully! Currently plugin version: &e" + version);
             } catch (Exception e) {
                 e.printStackTrace();

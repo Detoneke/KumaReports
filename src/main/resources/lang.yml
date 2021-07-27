@@ -1,5 +1,5 @@
 ingame-prefix: "&c&lKuma&4&lReports &8&l| &f"
-invalid-usage: "&cInvalid usage! Use: /help <report, bug, other>!"
+invalid-usage: "&cInvalid usage! Use: /report <report, bug, other>!"
 successfully-sent-webhook: "&cReport sent!"
 Report:
   specify-player: "&cPlease, specify a valid player!"
