@@ -19,7 +19,7 @@ public class AyudaCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if(label.equalsIgnoreCase("help")) {
+        if(label.equalsIgnoreCase("report")) {
 
             DiscordWebhook webhook = new DiscordWebhook(main.getUrl());
             if (sender instanceof Player) {
